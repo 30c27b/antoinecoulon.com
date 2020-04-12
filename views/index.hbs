@@ -1,0 +1,14 @@
+<div class="main">
+	<h1>personal blog</h1>
+	<h2>where I talk about computers and things</h2>
+	<br />
+	<h2>latest posts</h2>
+	<br />
+	{{#each post}}
+	<h1>{{this.title}}</h1>
+	<h3>{{this.date}}; {{this.views}} views</h3>
+	<h2><a href="{{this.link}}">read</a></h2>
+	<br />
+	{{/each}}
+	<h2><a href="https://antoinecoulon.com/">homepage</a></h2>
+</div>

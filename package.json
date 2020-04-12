@@ -1,0 +1,21 @@
+{
+  "name": "blog.cln.ac",
+  "version": "0.0.0",
+  "description": "Antoine Coulon's personal blog",
+  "main": "App.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "nodemon server.js"
+  },
+  "author": {
+    "name": "Antoine Coulon",
+    "url": "https://antoinecoulon.com",
+    "email": "contact@cln.ac"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.3",
+    "mongoose": "^5.9.7",
+    "serve-favicon": "^2.5.0"
+  }
+}
