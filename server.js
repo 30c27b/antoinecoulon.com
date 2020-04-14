@@ -2,15 +2,11 @@
 require('dotenv').config();
 
 // dependencies
-const mongoose = require('mongoose');
 const express = require('express');
 const exphbs = require('express-handlebars');
 const path = require('path');
 const favicon = require('serve-favicon');
 const config = require('./config');
-
-// mongoose setup
-mongoose.connect(config.mongo.uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 // express setup
 const server = express();

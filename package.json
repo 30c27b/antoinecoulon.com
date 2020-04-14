@@ -1,8 +1,8 @@
 {
-  "name": "blog.cln.ac",
+  "name": "antoinecoulon.com",
   "version": "0.0.0",
-  "description": "Antoine Coulon's personal blog",
-  "main": "App.js",
+  "description": "Antoine Coulon's personal website",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "test": "nodemon server.js"
@@ -16,8 +16,6 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-handlebars": "^4.0.3",
-    "mongoose": "^5.9.7",
-    "serve-favicon": "^2.5.0",
-    "shortid": "^2.2.15"
+    "serve-favicon": "^2.5.0"
   }
 }

@@ -1,17 +1,22 @@
 const express = require('express');
 const router = express.Router();
-const post = require('../models/post');
 
-router.get('/', (req, res) =>{
-	post.find({}, (err, posts) => {
-		if (err) res.render('index.hbs', {msg: "cannot load posts"});
-		else if (!posts.length) res.render('index.hbs', {msg: "nothing to see here; yet"});
-		else res.render('index.hbs', {posts: posts.map(post => post.to_display_format())});
-	});
+router.get('/', (req, res) => {
+	res.render('index.hbs', { pageName: 'homepage' });
 });
 
-router.get('/:post', (req, res) =>{
-	res.send("wip");
+router.get('/about', (req, res) => {
+	res.render('about.hbs', { pageName: 'about' });
+
+});
+
+router.get('/contact', (req, res) => {
+	res.render('contact.hbs', { pageName: 'contact' });
+
+});
+
+router.get('/key.asc', (req, res) => {
+	res.sendFile('/public/assets/key.txt', {root: __dirname + "/../"});
 });
 
 module.exports = router;
