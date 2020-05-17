@@ -19,4 +19,8 @@ router.get('/key.asc', (req, res) => {
 	res.sendFile('/public/assets/key.txt', {root: __dirname + "/../"});
 });
 
+router.get('/resume', (req, res) => {
+	res.sendFile('/public/assets/resume.pdf', {root: __dirname + "/../"});
+});
+
 module.exports = router;
