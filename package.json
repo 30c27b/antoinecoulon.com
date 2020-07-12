@@ -1,7 +1,7 @@
 {
   "name": "antoinecoulon.com",
   "version": "0.0.0",
-  "description": "Antoine Coulon's personal website",
+  "description": "Antoine Coulon's professional website",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
