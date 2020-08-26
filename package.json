@@ -1,21 +1,20 @@
 {
-  "name": "antoinecoulon.com",
-  "version": "0.0.0",
-  "description": "Antoine Coulon's professional website",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js",
-    "test": "nodemon server.js"
-  },
-  "author": {
-    "name": "Antoine Coulon",
-    "url": "https://antoinecoulon.com",
-    "email": "contact@cln.ac"
-  },
-  "dependencies": {
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "express-handlebars": "^4.0.3",
-    "serve-favicon": "^2.5.0"
-  }
+	"name": "antoinecoulon.com",
+	"version": "0.0.0",
+	"scripts": {
+		"test": "nodemon server.js"
+	},
+	"author": {
+		"name": "Antoine '30c27b' Coulon",
+		"url": "https://30c27b.com",
+		"email": "antoine@30c27b.com"
+	},
+	"dependencies": {
+		"express": "^4.17.1",
+		"express-handlebars": "^4.0.3",
+		"serve-favicon": "^2.5.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	}
 }

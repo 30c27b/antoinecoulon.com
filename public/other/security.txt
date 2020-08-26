@@ -1,0 +1,24 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Contact: mailto:contact@cln.ac
+Encryption: https://antoinecoulon.com/pubkey.asc
+Preferred-Languages: en, fr
+Canonical: https://antoinecoulon.com/.well-known/security.txt
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEVKewWEoqrm7L2/SMXDqcRbqda6UFAl9GnwsACgkQXDqcRbqd
+a6WDUA//ezm6h81YiXyxt8G/EVnuMCCB1L6p3HLLfZVxztC1Advr3fHNV/fVjzQv
+yCp0X8ki/FN3Y662Y+5W4pw/yHNba0aXeqoZE4DZfgLjRD4Ckrbn9K+I2X0BZO2R
+vbaLuFx34tvrb4eqUXHuFqI8CUUc8KgCyvQzNK9hV/fc13SM9zTtoKe9xEbXHtjT
+qcpV+0vwyIwW04h9T4VywFs29BA9A9z5B4NbqUKZSJwOHba47CBWanr0gbXuQpk2
+3iPGLJ6LON7V2phDHpNGce/PxUEVposT+JrBuLXgwenR3V0TpRg9XFH3vpkCoK/E
+vY05JAtTqrE3ccQHwoDTeu1sSXlP5tstFc8/L3pb78dOwX0NVZx7xY/99ysIAF9R
+tdvcgFFu1IOQBVCaVed8RisPYGUYfcVvA4YVow352ZgYyGix19qtsBiu/g+lR88d
+/jEE1cI3VKwP+hFBYYaHrw6R/cbX1jAXZ3Ji2PPuxZ9PE3rMclZj6gMWAN2up9rQ
+6o+sBYMHOSjDhoql/8ioBQ4zAOxT3gRSD15dzK/nU92929rJpELtoeRGeKfnhVKY
+V6o6TXnirrRhXCrR898JD1X+VMpWCppH3s7u3hCRTGGdinMPYHXy2iPNiLfXLeoR
+Y9Ev41lxnHDRbn2ic43HAvh3Ip2rqSCllGV4SY5uO2HRAlLwsbg=
+=Gb+i
+-----END PGP SIGNATURE-----
